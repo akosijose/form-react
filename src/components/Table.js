@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 const TableHeader = () => {
   return (
@@ -6,12 +6,13 @@ const TableHeader = () => {
       <tr>
         <th>Name</th>
         <th>Job</th>
+        <th>Remove</th>
       </tr>
     </thead>
   );
 };
 
-const Table = props => {
+const Table = (props) => {
   return (
     <table>
       <TableHeader />
